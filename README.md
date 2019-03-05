@@ -1,7 +1,9 @@
 How to install
 =====================
 In "Shrec Competition" directory you can find "requirements.txt" containing all the modules you need to run the python(3.6.4) script (Eval.py).
+
 To install requirements open a terminal in the current directory and type:
+	
 	python -m venv "virtual_env_name" (optional if you don't want to create a virtual enviroment)
 	"virtual_env_name"\Scripts\activate
 	pip install -r requirements-{windows/linux}.txt
@@ -11,6 +13,7 @@ To install requirements open a terminal in the current directory and type:
 How to use
 =====================
 In "Shrec Competition" directory open a terminal and type the following command:
+	
 	python eval.py	--dataset_path	"Test" --out_file "results.txt"
 	
 *--dataset_path: path to directory containing test files. The directory has to follow this structure:
